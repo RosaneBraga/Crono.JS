@@ -10,12 +10,15 @@ window.onload = function () {
   var Interval ;
 
   buttonStart.onclick = function() {
-    
+    buttonStop.style.display = "block";
+    buttonStart.style.display = "none";
     clearInterval(Interval);
      Interval = setInterval(startTimer, 10);
   }
   
     buttonStop.onclick = function() {
+      buttonStop.style.display = "none";
+      buttonStart.style.display = "block";
        clearInterval(Interval);
   }
   
