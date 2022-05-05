@@ -42,4 +42,12 @@ border: solid 1px #8B0000;
 color: #008B8B;
 }
 
- 
+#button-stop {
+
+  display: none;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+}
